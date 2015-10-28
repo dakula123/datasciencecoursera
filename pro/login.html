@@ -1,0 +1,92 @@
+<!Doc html>
+<html>
+<head>
+<style>
+	#header{
+	    height:50px;
+		width:20%;
+		float:left;
+		margin-top:0px;
+	}
+	#header2{
+	    height:35px;
+		margin-top:0px;
+		margin-left:85%;
+	}
+body {
+    background-image: url("curtains.jpg");
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center; 
+    background-size: contain;	
+}
+body:hover{
+background-image: url("Theater1.jpg");
+background-size:cover;}
+input {
+   width:50%;
+    align:center;
+    float:left;
+	box-sizing: border-box;
+	padding: 1em;
+	border: 0.15em solid #808080;
+	border-radius: 0.5em;
+	text-align:left
+}
+button {
+  background: #55d934;
+  background-image: -webkit-linear-gradient(top, #55d934, #63b82b);
+  background-image: -moz-linear-gradient(top, #55d934, #63b82b);
+  background-image: -ms-linear-gradient(top, #55d934, #63b82b);
+  background-image: -o-linear-gradient(top, #55d934, #63b82b);
+  background-image: linear-gradient(to bottom, #55d934, #63b82b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width:25%;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+a{text-decoration: none;color:white;}
+</style>
+</head>
+<body>
+<div id="header"><a href="#"><img src="logo.png" width="200" height="50"></a> </div>
+ <div id="header2">
+ <a href="https://twitter.com/"><img title="Twitter" src="Twitter.png" alt="Twitter" width="35" height="35" /></a>
+ <a href="https://www.facebook.com/"><img title="facebook" src="fb.png" alt="facebook" width="35" height="35" /></a>
+ <a href="https://plus.google.com/"><img title="googleplus" src="google+.png" alt="googleplus" width="35" height="35" /></a>
+  <a href="https://www.pinterest.com/"><img tCorporate officeitle="pinterest" src="pinterest.png" alt="pinterest" width="35" height="35" /></a>
+ </div>
+<div class="login">
+    <form action="#" style="margin-top: 200px;margin-left: 500px;">
+
+      <div class="input" >
+        <input type="text" class="form-control" placeholder="Username or email"></br></br></br>
+		<input type="password" class="form-control" placeholder="Password"></br></br></br>
+		<div id="button">
+        <button type="submit">Login</button>
+		<button type="submit" onClick="parent.location='Registration.html'">Sign up</a></button></br></br></br>
+ 		</div>
+		 <div class="login-help" style="font-family:Serif; margin-left:60px;font-size:1em;color:#FFFFFF;">
+      <b>Forgot your password?</b> <a href=# style="text-decoration:none;color:#FFFFFF;">Click here to reset it</a></div>
+    </div>
+	</form>
+ </div>
+ </body>
+ </html>
+ 
